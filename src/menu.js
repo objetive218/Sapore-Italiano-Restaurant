@@ -1,4 +1,6 @@
 import "./styles/menu.css";
+import putanesca from "./img/puttanesa.jpg";
+
 export default function menu() {
   let center = document.createElement("div");
 
@@ -22,7 +24,7 @@ export default function menu() {
   center.appendChild(
     createContent(
       "Spaghetti puttanesca",
-      "./img/puttanesa.jpg",
+      `${putanesca}`,
       "Cook up this classic sauce in one pan, then toss with spaghetti for a simple midweek meal. It's budget-friendly too, making it a great meal for the family"
     )
   );
