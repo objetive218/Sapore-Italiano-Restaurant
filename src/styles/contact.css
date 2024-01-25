@@ -1,0 +1,19 @@
+#boxCont {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #008080;
+    color: #fefdac;
+    gap: 10px;
+}
+
+#boxCont>div {
+    max-width: 80%;
+    height: 480px;
+    border: #fefdac solid 2px;
+    box-shadow: #fefdac 1px 9px 9px 1px;
+    border-radius: 5px;
+}

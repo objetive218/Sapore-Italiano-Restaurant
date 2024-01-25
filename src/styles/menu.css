@@ -1,0 +1,37 @@
+#boxMenu {
+    width: 100vw;
+    height: 87vh;
+    background-color: #fefdac;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#boxMenu>div>img {
+    width: 55%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 120px;
+    border: #fefdac solid 2px;
+    box-shadow: #fefdac 2px 4px 4px 1px;
+}
+
+#boxMenu>div {
+    width: 350px;
+    height: 330px;
+    padding: 20px;
+    border: #008080 solid 2px;
+    background-color: #008080;
+    border-radius: 20px;
+    color: #fefdac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 10px;
+    box-shadow: rgba(0, 128, 128, 0.5) 5px 5px 9px 1px;
+}
